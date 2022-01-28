@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(138, 138, 138);
+    opacity: 10;
+    width: auto;
+}
+
+nav {
+    border-right: black;
+    width: 10%;
+}
