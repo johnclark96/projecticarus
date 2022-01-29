@@ -8,13 +8,48 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>Header</header>
-    <div id="main"></div>
-    Testing
+    <!-- HEADER_START-->
+    <header>
+       <div id="left-head">
+           Left Header
+           <br>
+           Survive Icarus Community Logo
+        </div>
+       <div id="center-head"></div>
+       <div id="right-head">
+           Right Header
+           <br>
+           with another logo/image? to Icarus website maybe?
+        </div> 
+    </header>
+    <!-- HEADER_END -->
+
+    <!-- MAIN CONTENT BODY START-->
+    <section>
+        <div id="main"> Map go here </div>
+    </section>
+    <!-- MAIN CONTENT BODY END -->
+
+    <!-- NAVIGATION START -->
     <nav>
-        <div id="left-nav">Left Nav</div>
+        <button class="openbtn" onclick="openLeftNav()">&#9776; Left Nav</button>
+
+        <div id="left-nav" class="leftnav">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeLeftNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Stuff</a>
+            <a href="#">More</a>
+
+        </div>
+
         <div id="center-nav">Center Nav</div>
         <div id="right-nav">Right Nav</div>
     </nav>
+    <!-- NAVIGATION END -->
+    <!--<footer>Footer</footer>-->
+
+    <script src="js/main.js"></script>
+
 </body>
 </html>
