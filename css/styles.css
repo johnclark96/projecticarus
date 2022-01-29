@@ -1,10 +1,133 @@
+html {
+    padding: 0;
+}
+
 body {
     background-color: rgb(138, 138, 138);
     opacity: 10;
-    width: auto;
+    margin: 0;
 }
 
+/* 
+ HEADER
+*/
+
+header {
+    display: flex;
+    text-align: center;
+    height: 15vh;
+}
+
+header > #center-head {
+    flex: 1;
+    background: coral;
+
+}
+
+header > #left-head,
+header > #right-head {
+    flex: 0 0 20vw;
+    background: hotpink;
+}
+
+header, #left-head, #center-head, #right-head {
+    padding: 0;
+}
+
+/* 
+MAIN CONTENT SECTION
+*/
+
+section > #main {
+    min-height: calc(90vh - 10.1vh);
+    background-color: green;
+    text-align: center;
+}
+
+/*
+
+NAV BARS (ALL 3 AT THE BOTTOM OF THE SITE)
+
+*/
 nav {
-    border-right: black;
-    width: 10%;
+    display: flex;
+    /*min-height: calc(40vh - 15.2vh);*/
+    background-color: black;
+    color: rgb(198, 215, 164);
+    text-align: center;
+    z-index: 1;
+}
+
+nav > #center-nav {
+    flex: 1;
+}
+
+nav > #left-nav,
+nav > .openbtn,
+nav > #right-nav {
+    flex: 0 0 20vw;
+    
+}
+
+nav > #center-nav {
+
+}
+
+#left-nav, #center-nav, #right-nav {
+    padding: 1em;
+}
+
+/*header {
+    background:chocolate;
+    height: 12vh;
+}*/
+
+
+/* The sidepanel menu */
+.leftnav {
+    height: 0; /* Specify a height */
+    width: 20vw; /* 0 width - change this with JavaScript */
+    position:fixed; /* Stay in place */
+    /*z-index: 0; /* Stay on top */
+    bottom: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .leftnav a {
+    padding: 8px 8px 8px; /* Adjust Padding */
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+.leftnav a:hover {
+    color: #f1f1f1;
+  }
+
+.leftnav .closebtn {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: white;
 }
