@@ -1,0 +1,48 @@
+/* The sidepanel menu */
+/*.leftnav {
+    /*height: 0; /* Specify a height */
+    /*width: 20vw; /* 0 width - change this with JavaScript */
+ /*   position:fixed; /* Stay in place */
+    /*z-index: 0; /* Stay on top */
+ /*   bottom: 0;
+    left: 0;
+    background-color: grey; /* Black*/
+    /*overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding-top: 20px; /* Place content 60px from the top */
+ /*   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+ /* }*/
+  
+  /* The sidepanel links */
+ /* .leftnav a {
+    padding: 8px 8px 8px; /* Adjust Padding */
+/*    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+.leftnav a:hover {
+    color: #f1f1f1;
+  }
+
+.leftnav .closebtn {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.leftnav .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+*/
+/*.leftnav .openbtn:hover {
+    background-color: white;
+}*/
