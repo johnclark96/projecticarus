@@ -38,9 +38,15 @@ header, #left-head, #center-head, #right-head {
 /* DIVIDER */
 
 #divider {
-    height: 10px;
+    height: 2vh;
     background-color: brown;
-    opacity: 65%;
+    border-top: 3px;
+    border-bottom: 2px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: black;
+    border-style: solid;
+
 }
 
 /* 
@@ -48,7 +54,7 @@ MAIN CONTENT SECTION
 */
 
 section > #main {
-    min-height: calc(90vh - 10.1vh);
+    min-height: calc(90vh - 15.3vh);
     background-color: green;
     text-align: center;
 }
