@@ -35,6 +35,14 @@ header, #left-head, #center-head, #right-head {
     padding: 0;
 }
 
+/* DIVIDER */
+
+#divider {
+    height: 10px;
+    background-color: brown;
+    opacity: 65%;
+}
+
 /* 
 MAIN CONTENT SECTION
 */
